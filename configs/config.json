@@ -1,0 +1,241 @@
+{
+  "cheatSettings": {
+    "settingsSections": [
+      {
+        "key": "displaySettings",
+        "title": "顯示設置",
+        "settings": []
+      },
+      {
+        "key": "securitySettings",
+        "title": "安全設置",
+        "settings": [
+          {
+            "key": "nicMacAddressString",
+            "label": "MAC地址",
+            "type": "text",
+            "description": "當前MAC地址"
+          }
+        ]
+      },
+      {
+        "key": "performanceSettings",
+        "title": "性能設置",
+        "settings": [
+          {
+            "key": "walkSpeedValue",
+            "label": "行走速度值",
+            "type": "integer",
+            "description": "設置行走速度",
+            "min": 100,
+            "max": 135
+          },
+          {
+            "key": "battleFPSValue",
+            "label": "戰鬥FPS值",
+            "type": "integer",
+            "description": "設置戰鬥時的FPS值",
+            "min": 60,
+            "max": 600
+          }
+        ]
+      },
+      {
+        "key": "automationSettings",
+        "title": "自動化設置",
+        "settings": [
+          {
+            "key": "autoLoginEnable",
+            "label": "自動登入",
+            "type": "bool",
+            "description": "啟用後，程序將自動登入帳號"
+          },
+          {
+            "key": "autoBattleEnable",
+            "label": "自動戰鬥",
+            "type": "bool",
+            "description": "啟用後，戰鬥將自動進行"
+          },
+          {
+            "key": "autoDiscardItemEnable",
+            "label": "自動丟棄道具",
+            "type": "bool",
+            "description": "啟用後，模糊檢測物品欄丟棄指定道具",
+            "button": {
+              "label": "丟棄設定",
+              "icon": "mdi:cog",
+              "component": "InventoryWindow",
+              "params": {
+                "itemListKey": "autoDiscardItemListString"
+              }
+            }
+          },
+          {
+            "key": "rewardDialogEnable",
+            "label": "獎勵對話框",
+            "type": "bool",
+            "description": "啟用後，獲得獎勵時顯示對話框"
+          }
+        ]
+      },
+      {
+        "key": "battleSettings",
+        "title": "戰鬥設置",
+        "settings": [
+          {
+            "key": "characterBattleActionDelayValue",
+            "label": "人物戰鬥動作延時",
+            "type": "integer",
+            "description": "設置人物戰鬥動作延時",
+            "min": 0,
+            "max": 99999999999
+          },
+          {
+            "key": "petBattleActionDelayValue",
+            "label": "寵物戰鬥動作延時",
+            "type": "integer",
+            "description": "設置寵物戰鬥動作延時",
+            "min": 0,
+            "max": 99999999999
+          }
+        ]
+      },
+      {
+        "key": "scriptSettings",
+        "title": "腳本設置",
+        "settings": []
+      }
+    ],
+    "initialValues": {
+      "displaySettings": {},
+      "securitySettings": {
+        "nicMacAddressString": "00:11:22:33:44:55"
+      },
+      "performanceSettings": {
+        "walkSpeedValue": 100,
+        "battleFPSValue": 60
+      },
+      "automationSettings": {
+        "autoLoginEnable": false,
+        "autoBattleEnable": false,
+        "rewardDialogEnable": false,
+        "autoDiscardItemEnable": false,
+        "autoDiscardItemListString": "[]"
+      },
+      "battleSettings": {
+        "characterBattleActionDelayValue": 0,
+        "petBattleActionDelayValue": 0
+      },
+      "scriptSettings": {}
+    }
+  },
+  "discuz": {
+    "groups": [
+      {
+        "id": 1,
+        "code": "admin",
+        "name": "管理員",
+        "enable": true,
+        "color": "#FF0000"
+      },
+      {
+        "id": 2,
+        "code": "superModerator",
+        "name": "超級版主",
+        "enable": true,
+        "color": "#FF0000"
+      },
+      {
+        "id": 3,
+        "code": "moderator",
+        "name": "版主",
+        "enable": true,
+        "color": "#9900FF"
+      },
+      {
+        "id": 9,
+        "code": "restrictedMember",
+        "name": "限制會員",
+        "enable": true,
+        "color": "#FF66FF"
+      },
+      {
+        "id": 10,
+        "code": "newMember",
+        "name": "新手上路",
+        "enable": true,
+        "color": ""
+      },
+      {
+        "id": 11,
+        "code": "registeredMember",
+        "name": "註冊會員",
+        "enable": true,
+        "color": ""
+      },
+      {
+        "id": 12,
+        "code": "intermediateMember",
+        "name": "中級會員",
+        "enable": true,
+        "color": "#669900"
+      },
+      {
+        "id": 13,
+        "code": "seniorMember",
+        "name": "高級會員",
+        "enable": true,
+        "color": "#3366FF"
+      },
+      {
+        "id": 14,
+        "code": "goldMember",
+        "name": "金牌會員",
+        "enable": true,
+        "color": "#FFCC66"
+      },
+      {
+        "id": 15,
+        "code": "forumVeteran",
+        "name": "論壇元老",
+        "enable": true,
+        "color": "#FF9900"
+      },
+      {
+        "id": 20,
+        "code": "royalPalaceRoyalty",
+        "name": "王宮王族",
+        "enable": true,
+        "color": "#FFCC00"
+      },
+      {
+        "id": 22,
+        "code": "royalPalaceTester",
+        "name": "王宮測試員",
+        "enable": true,
+        "color": "#006699"
+      },
+      {
+        "id": 23,
+        "code": "royalPalaceNobility",
+        "name": "王宮貴族",
+        "enable": true,
+        "color": "#FF9900"
+      },
+      {
+        "id": 24,
+        "code": "pet",
+        "name": "石器人",
+        "enable": true,
+        "color": "#00CCCC"
+      },
+      {
+        "id": 25,
+        "code": "catObserver",
+        "name": "觀測貓的人",
+        "enable": true,
+        "color": "#00CCCC"
+      }
+    ]
+  }
+}
