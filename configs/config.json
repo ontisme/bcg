@@ -57,6 +57,12 @@
             "description": "啟用後，戰鬥將自動進行"
           },
           {
+            "key": "autoBattleEscapeEnable",
+            "label": "自動逃跑",
+            "type": "bool",
+            "description": "啟用後，戰鬥自動逃跑，寵物發呆"
+          },
+          {
             "key": "autoDiscardItemEnable",
             "label": "自動丟棄道具",
             "type": "bool",
@@ -103,12 +109,6 @@
             "description": "設置寵物戰鬥動作延時",
             "min": 0,
             "max": 99999999999
-          },
-          {
-            "key": "autoBattleEscapeEnable",
-            "label": "自動逃跑",
-            "type": "bool",
-            "description": "啟用後，戰鬥自動逃跑，寵物發呆"
           }
         ]
       },
