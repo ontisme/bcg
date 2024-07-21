@@ -127,7 +127,7 @@
     "initialValues": {
       "displaySettings": {},
       "securitySettings": {
-        "nicMacAddressString": "00:11:22:33:44:55"
+        "nicMacAddressString": ""
       },
       "performanceSettings": {
         "walkSpeedValue": 100,
@@ -136,7 +136,10 @@
       "automationSettings": {
         "autoLoginEnable": false,
         "autoBattleEnable": false,
+        "autoBattleEscapeEnable", false,
         "rewardDialogEnable": false,
+        "dialogEnable": true,
+        "warpAnimeEnable": true,
         "autoDiscardItemEnable": false,
         "autoDiscardItemListString": "[]"
       },
