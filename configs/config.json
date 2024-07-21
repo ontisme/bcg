@@ -136,7 +136,7 @@
       "automationSettings": {
         "autoLoginEnable": false,
         "autoBattleEnable": false,
-        "autoBattleEscapeEnable", false,
+        "autoBattleEscapeEnable": false,
         "rewardDialogEnable": false,
         "dialogEnable": true,
         "warpAnimeEnable": true,
