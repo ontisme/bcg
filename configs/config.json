@@ -74,7 +74,13 @@
             "key": "rewardDialogEnable",
             "label": "獎勵對話框",
             "type": "bool",
-            "description": "啟用後，獲得獎勵時顯示對話框"
+            "description": "啟用後，獲得獎勵時允許顯示對話框"
+          },
+          {
+            "key": "dialogEnable",
+            "label": "對話框",
+            "type": "bool",
+            "description": "啟用後，允許顯示對話框"
           }
         ]
       },
