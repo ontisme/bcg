@@ -144,8 +144,8 @@
         "autoDiscardItemListString": "[]"
       },
       "battleSettings": {
-        "characterBattleActionDelayValue": 0,
-        "petBattleActionDelayValue": 0
+        "characterBattleActionDelayValue": 500,
+        "petBattleActionDelayValue": 500
       },
       "scriptSettings": {}
     }
