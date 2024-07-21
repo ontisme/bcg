@@ -87,6 +87,12 @@
             "label": "對話框",
             "type": "bool",
             "description": "啟用後，允許顯示對話框"
+          },
+          {
+            "key": "warpAnimeEnable",
+            "label": "轉場動畫",
+            "type": "bool",
+            "description": "啟用後，允許顯示轉場動畫"
           }
         ]
       },
