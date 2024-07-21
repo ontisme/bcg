@@ -14,7 +14,7 @@
             "key": "nicMacAddressString",
             "label": "MAC地址",
             "type": "text",
-            "description": "當前MAC地址"
+            "description": "當前MAC地址，為空則不啟用"
           }
         ]
       },
@@ -103,6 +103,12 @@
             "description": "設置寵物戰鬥動作延時",
             "min": 0,
             "max": 99999999999
+          },
+          {
+            "key": "autoBattleEscapeEnable",
+            "label": "自動逃跑",
+            "type": "bool",
+            "description": "啟用後，戰鬥自動逃跑，寵物發呆"
           }
         ]
       },
