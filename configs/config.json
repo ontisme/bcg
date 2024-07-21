@@ -137,7 +137,7 @@
         "autoLoginEnable": false,
         "autoBattleEnable": false,
         "autoBattleEscapeEnable": false,
-        "rewardDialogEnable": false,
+        "rewardDialogEnable": true,
         "dialogEnable": true,
         "warpAnimeEnable": true,
         "autoDiscardItemEnable": false,
