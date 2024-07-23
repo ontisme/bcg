@@ -256,6 +256,13 @@
         "name": "觀測貓的人",
         "enable": true,
         "color": "#00CCCC"
+      },
+      {
+        "id": 28,
+        "code": "catObserver",
+        "name": "觀測貓的人",
+        "enable": true,
+        "color": "#00CCCC"
       }
     ]
   }
