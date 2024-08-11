@@ -37,6 +37,24 @@
             "description": "設置戰鬥時的FPS值",
             "min": 60,
             "max": 600
+          },
+          {
+            "key": "rewardDialogEnable",
+            "label": "獎勵對話框",
+            "type": "bool",
+            "description": "啟用後，獲得獎勵時允許顯示對話框"
+          },
+          {
+            "key": "dialogEnable",
+            "label": "對話框",
+            "type": "bool",
+            "description": "啟用後，允許顯示對話框"
+          },
+          {
+            "key": "warpAnimeEnable",
+            "label": "轉場動畫",
+            "type": "bool",
+            "description": "啟用後，允許顯示轉場動畫"
           }
         ]
       },
@@ -75,24 +93,6 @@
                 "itemListKey": "autoDiscardItemListString"
               }
             }
-          },
-          {
-            "key": "rewardDialogEnable",
-            "label": "獎勵對話框",
-            "type": "bool",
-            "description": "啟用後，獲得獎勵時允許顯示對話框"
-          },
-          {
-            "key": "dialogEnable",
-            "label": "對話框",
-            "type": "bool",
-            "description": "啟用後，允許顯示對話框"
-          },
-          {
-            "key": "warpAnimeEnable",
-            "label": "轉場動畫",
-            "type": "bool",
-            "description": "啟用後，允許顯示轉場動畫"
           }
         ]
       },
