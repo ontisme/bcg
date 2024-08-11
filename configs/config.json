@@ -88,7 +88,7 @@
             "button": {
               "label": "丟棄設定",
               "icon": "mdi:cog",
-              "component": "InventoryWindow",
+              "component": "Inventory",
               "params": {
                 "itemListKey": "autoDiscardItemListString"
               }
