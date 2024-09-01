@@ -93,6 +93,20 @@
                 "itemListKey": "autoDiscardItemListString"
               }
             }
+          },
+          {
+            "key": "autoItemHealEnable",
+            "label": "自動吃料 (補血/魔)",
+            "type": "bool",
+            "description": "啟用後，在戰鬥結束後，自動查找身上最適合的道具補一次",
+            "button": {
+              "label": "條件設定",
+              "icon": "mdi:cog",
+              "component": "AutoItemHeal",
+              "params": {
+                "itemListKey": "autoItemHealSettingString"
+              }
+            }
           }
         ]
       },
