@@ -104,6 +104,8 @@
               "icon": "mdi:cog",
               "component": "AutoItemHeal",
               "params": {
+                "width": 500,
+                "height": 800,
                 "itemListKey": "autoItemHealSettingString"
               }
             }
